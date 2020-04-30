@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #66bfbf;
+  color: #11999e;
 }
 
 h1 {
@@ -20,6 +20,7 @@ h1 {
 h2 {
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
   /* font-size: 2.5rem; */
   /* font-weight: normal; */
 }
@@ -41,9 +42,28 @@ h3 {
   /* background-color: #9cf3f2; */
 }
 .bottom-container {
-  background-color: #c5ded7;
+  background-color: #66bfbf;
+  padding: 25px 0 30px;
+}
+p {
+  line-height: 2;
 }
 
+hr {
+  /* width: 15%;
+  border-width: 5px;*/
+  border-style: none none none none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 15%;
+  /* border: 0 noshade; */
+}
+
+.intro {
+  width: 75%;
+  margin: 0 auto 0 auto;
+}
 #role {
   text-decoration: underline;
 }
@@ -82,13 +102,78 @@ h3 {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
 
-.skill-img {
+.cloudcomputing-img {
   width: 30%;
   float: left;
-  margin-right: 30px;
+  margin-right: 50px;
+}
+
+.web-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.mobile-img {
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+}
+
+.coding-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.reachme {
+  color: #11999e;
+}
+
+.footer-link {
+  /* border-top: 50px; */
+  /* padding: 10px; */
+  margin: 50px;
+  text-decoration: none;
+  border: 50px;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
+.button {
+  font-family: arial;
+  margin: 25px;
+  color: #e6eaf0 !important;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #7cacde;
+  box-shadow: 1px 1px 1px #bee2f9;
+  padding: 10px 50px 10px 50px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #3866a3;
+  background: #63b8ee;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#63b8ee),
+    to(#468ccf)
+  );
+  background: -moz-linear-gradient(top, #63b8ee, #468ccf);
+}
+.button:hover {
+  background-color: blue;
+}
+
+.copyright {
+  margin-top: 30px;
+  color: #eaf6f6;
+  font-size: 10px;
 }
