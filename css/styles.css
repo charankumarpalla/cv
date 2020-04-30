@@ -55,4 +55,25 @@ h3 {
 
 .bottom-cloud {
   position: absolute;
+  /* left: 5px; */
+}
+
+.cloud-a {
+  position: absolute;
+  bottom: 100px;
+  right: 1px;
+  margin: 0;
+  /* left: 200px; */
+}
+.cloud-b {
+  position: absolute;
+  bottom: 50px;
+  right: 1px;
+  margin: 0;
+  /* left: 200px; */
+}
+.smoke-b {
+  position: absolute;
+  bottom: 250px;
+  right: 650px;
 }
